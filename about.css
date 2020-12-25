@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body {
+    background-color: rgba(2, 3, 2, 0.87);
+}
+
+.header {
+    background-color: #031a18;
+    color: #fff;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    margin-top: -7px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    
+  }
+  
+  .header-list li {
+    float: right;
+    padding: 33px 20px;
+    list-style: none;
+    
+}
+
+
+.header-list a {
+    text-decoration: none;
+    color: white;
+    border: 2px dashed white;
+    padding: 5px 8px 5px;
+}
+
+.header-list a:hover{
+    background-color: teal;
+}
+
+.main {
+    width: 800px;
+    margin: auto;
+    background-color: none;
+}
+
+.bann {
+    height: 450px;
+    background-image: url(poto.jpg);
+    background-size: cover;
+    background-position: 0px -2000px;
+    border-bottom: 7px solid #73ff00a9;
+    border-top: 7px dashed #26d0c9;
+    
+    
+
+
+
+}
+
+
+
+
+.main .fev {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    margin-top: 900px;
+}
+
+.main .hovre {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.numo {
+    font-size: 40px;
+    color: white;
+    margin-top: 60px;   
+
+}
+
+.imek img {
+    width: 600px;
+    height: 300px;
+    
+}
+
+.deks {
+    font-size: 20px;
+    color: white;
+}
+
+.end {
+    font-size: 20px;
+    margin-top: 1000px;
+}
+
+
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    background-color: #031a18;
+    padding: 50px;
+    margin-top: 400 px;
+    color: white;
+    margin-top: 60px;
+
+    
+
+}
+
+
+.face{
+    padding: 20px;
+    display: inline;
+    margin-right: 30 qpx;
+    margin-left: 60px;
+    margin-right: 30px;
+   
+}
+
+.content p{
+    text-align: center  ;
+    color: #fff;
+}
+
+.face a:hover {
+    color: aqua;
+}
+
+
+.tup {
+    font-size: 20px;
+    color: white;
+    margin-top: 900px;
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: yellow
+}
+
+
+
